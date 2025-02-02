@@ -1,0 +1,7 @@
+transformers
+crewai
+python-dotenv
+linkedin-api
+fpdf
+groq
+crewai_tools

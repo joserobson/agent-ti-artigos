@@ -1,0 +1,16 @@
+{
+  "name": "DevContainer IA",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "remoteUser": "root",
+  "settings": {
+    "python.pythonPath": "/usr/local/bin/python3"
+  },
+  "extensions": [
+    "ms-python.python",
+    "ms-toolsai.jupyter",
+    "ms-vscode.remote.remote-containers",
+    "mhutchie.git-graph"
+  ],
+  "postCreateCommand": "pip install -r requirements.txt"
+}
